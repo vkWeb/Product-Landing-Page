@@ -1,15 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300, 400&display=swap");
 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  margin: 0;
-}
-
-h1,
-h2,
-h3 {
   font-weight: 300;
+  margin: 0;
 }
 
 h1 {
@@ -18,27 +13,27 @@ h1 {
 
 h2 {
   font-size: 3rem;
+  line-height: 1;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
-/* Navigation */
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+/* Navigation Menu */
 nav {
   text-align: right;
+  padding: 1rem;
 }
 
 nav a {
   text-decoration: none;
   color: #ffffff;
-  margin: 12px 18px;
-}
-
-a.primary-btn {
-  -moz-appearance: button;
-  -webkit-appearance: button;
-  appearance: button;
-  background-color: #f06449;
-  padding: 8px;
+  margin: 0 1rem;
 }
