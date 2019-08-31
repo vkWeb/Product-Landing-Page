@@ -1,53 +1,32 @@
-h3 {
-  text-align: center;
-}
-
-.btn {
-  display: inline-block;
-  width: 8rem;
-  padding: 0.5rem;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 400;
-  color: #ffffff;
-  cursor: pointer;
-  border-radius: 0.2rem;
-}
-
-.btn-primary {
-  background-color: #c5523c;
-}
-
-.btn-secondary {
-  border: 1px solid #c5523c;
-  background-color: rgba(197, 82, 60, 0.2);
-}
-
-header {
-  background: radial-gradient(#5d8ca6, #305674);
-  text-align: center;
-  color: #ffffff;
-}
-
-header section {
-  padding-bottom: 4rem;
-}
+/* Header section */
 
 header section a {
-  margin: 0 1rem;
+  margin: 1rem;
+}
+
+/* Features overview section */
+
+.features-overview {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .features-overview article {
-  display: inline-block;
   max-width: 18rem;
-  height: auto;
-  word-wrap: break-word;
-  text-align: center;
-  border: 1px solid black;
-  margin: 0.5rem;
   padding: 0.5rem;
+  text-align: center;
+  border: 0.01rem solid #5d8ca6;
+  box-shadow: 0.6rem 0.5rem 0.2rem rgba(48, 87, 116, 0.8);
+  margin-top: 2rem;
 }
 
 .features-overview article img {
   max-width: 6rem;
 }
+
+.features-overview a {
+  margin: 4rem 1rem 0 1rem;
+}
+
+/* Impressed section */ /* Footer */
