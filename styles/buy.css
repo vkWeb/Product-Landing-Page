@@ -1,0 +1,13 @@
+main {
+  margin: 2rem 0;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main .container section {
+  border: 1px solid black;
+  padding: 0 2rem 2rem 2rem;
+}

@@ -16,7 +16,7 @@ header section a {
   max-width: 18rem;
   padding: 0.5rem;
   text-align: center;
-  border: 0.01rem solid #5d8ca6;
+  border: 1px solid #5d8ca6;
   box-shadow: 0.6rem 0.5rem 0.2rem rgba(48, 87, 116, 0.8);
   margin-top: 2rem;
 }

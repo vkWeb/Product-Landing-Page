@@ -14,3 +14,7 @@ main table tr:hover {
 main table tr td {
   padding: 0.5rem 2rem;
 }
+
+.hello-phone-pro-specs {
+  display: none;
+}
