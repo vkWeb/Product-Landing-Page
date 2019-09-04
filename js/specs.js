@@ -1,12 +1,16 @@
-document
-  .querySelector(".hello-phone-btn")
-  .addEventListener("click", function() {
-    document.querySelector(".hello-phone-specs").style.display = "table";
-  });
+/* Button toggle for base and pro models specifications */
+document.querySelector(".base-btn").addEventListener("click", function() {
+  document.querySelector(".pro-specs-head").style.display = "none";
+  document.querySelector(".pro-specs").style.display = "none";
 
-document
-  .querySelector(".hello-phone-pro-btn")
-  .addEventListener("click", function() {
-    document.querySelector(".hello-phone-specs").style.display = "none";
-    document.querySelector(".hello-phone-pro-specs").style.display = "table";
-  });
+  document.querySelector(".base-specs-head").style.display = "block";
+  document.querySelector(".base-specs").style.display = "table";
+});
+
+document.querySelector(".pro-btn").addEventListener("click", function() {
+  document.querySelector(".base-specs-head").style.display = "none";
+  document.querySelector(".base-specs").style.display = "none";
+
+  document.querySelector(".pro-specs-head").style.display = "block";
+  document.querySelector(".pro-specs").style.display = "table";
+});

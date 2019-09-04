@@ -5,9 +5,39 @@ main {
 main .container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-main .container section {
-  border: 1px solid black;
-  padding: 0 2rem 2rem 2rem;
+.base-model {
+  box-shadow: 0 0 0.8rem rgb(237, 203, 196);
+}
+
+.pro-model {
+  box-shadow: 0 0 0.8rem rgb(220, 151, 137);
+}
+
+.base-model div,
+.pro-model div {
+  padding: 1rem;
+}
+
+.price {
+  font-size: 1.5rem;
+}
+
+.base-specs-list {
+  background-color: #edcbc4;
+}
+
+.pro-specs-list {
+  background-color: #dc9789;
+}
+
+.base-specs-list,
+.pro-specs-list {
+  padding: 1rem 2rem;
+}
+
+.jack {
+  font-size: 2rem;
 }

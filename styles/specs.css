@@ -1,6 +1,6 @@
-main table {
+main,
+table {
   margin: 2rem auto;
-  min-width: 80%;
 }
 
 main table tr:nth-child(odd) {
@@ -15,6 +15,17 @@ main table tr td {
   padding: 0.5rem 2rem;
 }
 
-.hello-phone-pro-specs {
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.pro-specs,
+.pro-specs-head {
   display: none;
 }
