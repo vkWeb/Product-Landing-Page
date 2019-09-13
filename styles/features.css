@@ -1,0 +1,21 @@
+main section {
+  max-width: 50%;
+  margin: 2rem auto;
+  word-wrap: break-word;
+}
+
+main section img {
+  max-width: 100%;
+}
+
+main section p {
+  font-size: 1.2rem;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons a {
+  margin: 0 2rem;
+}

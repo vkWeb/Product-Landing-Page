@@ -86,6 +86,11 @@ header nav ul a {
   margin: 1rem;
 }
 
+.current-page {
+  border-bottom: 2px solid #c5523c;
+  padding: 0.1rem;
+}
+
 /* Footer */
 footer {
   background: #d2d2d2;
